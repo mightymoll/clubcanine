@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;600;800&display=swap');
+
+* {
+  font-family: 'Gabarito', 'Gill Sans', sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.2em;
+}
+
+/* begin SCROLL TO TOP ITEM */
+.scrolltop {
+  position: sticky;
+  top: 80%;
+  text-align: right;
+  padding-right: 40px;
+}
+
+/* fixed to right bottom of page */
+.scrolltop a {
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: 800;
+  text-align: right;
+  color: #0A4366;
+  text-decoration: none;
+}
+
+.scrollbottom {
+  transform: rotate(180deg);
+  position: sticky;
+  bottom: 80%;
+  padding-left: 40px;
+}
+
+.scrollbottom a {
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: 800;
+  text-align: right;
+  color: #0A4366;
+  text-decoration: none;
+}
+
+.maincontainer {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 10px;
+  padding: 4% 2%;
+}
+
+/* begin HEADER / HERO */
+.hero {
+  background-image: url(../images/hero.jpg);
+  display: flex;
+  height: 350px;
+  background-size: cover;
+  background-position: 0 -100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.titre {
+  background-color: rgba(255, 255, 255, 0.452);
+  color: black;
+  padding: 3%;
+  font-size: 0.8em;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #B0D7ED;
+  position: absolute;
+  top: 250px;
+}
+
+.droit a {
+  text-decoration: none;
+  color: #0A4366;
+}
+
+.gauche img {
+  height: 50px;
+}
+
+.droit {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 0 2%;
+}
+
+.gauche {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  color: black;
+  gap: 20px;
+  padding: 1% 2%;
+}
+
+.navsub {
+  text-align: center;
+  background-color: #0F5E9E;
+  padding: 1%;
+}
+
+.navsub a {
+  text-decoration: none;
+  color: white;
+  padding: 0 1%;
+}
+
+/* begin <MAIN> */
+main {
+  padding: 0 2% 2% 2%;
+}
+
+.clickable {
+  color: #0A4366;
+  /* text-decoration: none; */
+}
+
+.clickable:hover {
+  color: #0F5E9E;
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.importantinfo {
+  margin: 20px 30px;
+  text-align: center;
+  background-color: #B0D7ED;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 40px 0;
+  background-color: #B0D7ED;
+  border-radius: 10px;
+  padding: 2%;
+}
+
+ul {
+  padding: 0;
+  margin: 10px;
+}
+
+section {
+  padding: 0 0 2% 0;
+  border-bottom: 4px solid #0A4366;
+  margin-bottom: 3%;
+}
+
+.listcomponent {
+  list-style-position: inside;
+}
+
+.listgroup {
+  /* display: grid; */
+  grid-template-columns: 1.4fr 1fr;
+  /* gap: 30px; */
+}
+
+.article {
+  background-color: #B0D7ED;
+  margin: 20px 0;
+  border-radius: 10px;
+  padding: 10px;
+  padding-top: 0;
+}
+
+hr {
+  margin: 20px 0;
+  color: #0F5E9E;
+}
+
+.listtitle {
+  margin-bottom: 10px;
+}
+
+.logocontainer {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.logocontainer img {
+  height: 60px;
+  margin: 10px 0;
+}
+
+/* code ASIDE */
+
+.aside {
+  margin-top: 2%;
+  padding: 5% 2% 0% 2%;
+  border: 3px solid #0F5E9E;
+  border-radius: 5px;
+  background-color: #B0D7ED;
+  height: max-content;
+}
+
+.aside section {
+  border-bottom: none;
+}
+
+h4 {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #0F5E9E;
+}
+
+.news {
+  border: 2px solid #0F5E9E;
+  border-radius: 5px;
+  margin: 11px;
+  padding: 8px;
+  background-color: white;
+}
+
+.newsitem {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.dateita {
+  font-style: italic;
+  font-size: 12px;
+}
+
+.stitle {
+  font-weight: bold;
+  color: #0A4366;
+  text-decoration: none;
+}
+
+.count img {
+  display: block;
+  margin: 0 auto;
+  height: 40px;
+  border-radius: 6px;
+}
+
+.title {
+  margin-left: 3%;
+  color: #0A4366;
+}
+
+/* footer code */
+footer {
+  background-color: #0F5E9E;
+  color: #B0D7ED;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 2%;
+}
+
+.liste {
+  display: flex;
+  flex-direction: column;
+}
+
+.liste a {
+  color: #fde54f;
+}
+
+.yellow {
+  color: #fde54f;
+}
+
+.droits {
+  text-align: center;
+}
+
+.rs {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.rsicon img {
+  margin: 5px;
+  width: 50px;
+  border-radius: 10px;
+}
